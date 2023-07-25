@@ -1,4 +1,20 @@
 # Geospatial Classification using Convolutional Neural Networks
+## How to Run
+
+To run this project, follow the steps below:
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+2. **Download the Dataset**: As mentioned in the code comments, the dataset can be obtained from Kaggle - ["Google Street View" dataset](https://www.kaggle.com/datasets/paulchambaz/google-street-view). Download the dataset and place it in the appropriate location within the cloned repository.
+3. **Unzip the Dataset**: Unzip and include the ​```edited_data.csv​``` inside the  ​```archive/dataset/​``` directory
+4. **Install Dependencies**: Ensure you have Python 3.x installed on your system. Install the required dependencies using the following command:
+​```pip install torch torchvision pandas matplotlib seaborn
+​```
+
+6. **Run the Jupyter Notebook**: Open the Jupyter Notebook (`optimized_street_view.ipynb`) in your preferred Jupyter environment (Jupyter Notebook, JupyterLab, etc.). Make sure to execute the cells sequentially to ensure all necessary libraries are imported and data is loaded.
+7. **Notebook Execution**: The notebook consists of cells that can be executed one after another. To execute a cell, press `Shift + Enter`. Make sure to execute all cells in order to ensure a smooth execution of the notebook.
+8. **Review Results**: After the notebook execution is complete, review the model's performance, exploration, and analysis results presented in the notebook.
+9. **Optional: Hyperparameter Tuning**: If you wish to experiment with different hyperparameters, feel free to modify
+
+
 
 ## Problem And Objective
 
